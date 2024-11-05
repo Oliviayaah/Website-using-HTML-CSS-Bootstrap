@@ -29,7 +29,7 @@ img {
 }
 
 a {
-  color: var(-dark);
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -183,4 +183,45 @@ section {
 
 .project:hover .img{
     transform: scale(1.1);
+}
+
+.pricing {
+    font-size: 20px;
+    color: var(--primary);
+}
+
+.pricing ul li {
+    margin-top: 8px;
+}
+
+.team-memeber img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+}
+
+.social-iconss {
+    display: flex;
+    justify-content: center;
+    }
+
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: var(--primary);
+    border-radius: 2px soild var(--primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    transition: all 0.4s ease;
+    border: 2px soild var(--primary);
+}
+
+.social-icons a:hover {
+    color: var(--primary);
+    background-color: transparent;
+    border-color: var(--primary);
 }
